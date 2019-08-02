@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Catalogue Movie</string>
+    <string name="now_playing">الان العب</string>
+    <string name="up_coming">القادمة</string>
+    <string name="favorite">مفضل</string>
+    <string name="movie_fav">الفيلم المفضل</string>
+    <string name="search_movie">بحث فيلم</string>
+    <string name="detail_movie">فيلم التفاصيل</string>
+    <string name="empty">المفضلة فارغة</string>
+
+    <string name="search">فيلم التفاصيل</string>
+    <string name="title">عنوان</string>
+    <string name="tagline">بطاقة</string>
+    <string name="rating">تقييم</string>
+    <string name="duration">المدة الزمنية</string>
+    <string name="language">لغة</string>
+    <string name="release">إطلاق سراح</string>
+    <string name="budget">ميزانية</string>
+    <string name="overview">نظرة عامة</string>
+    <string name="change_language_settings">غير اللغة</string>
+
+    <string name="failed">فشل</string>
+    <string name="title_empty">العنوان فارغ</string>
+    <string name="searching">البحث</string>
+
+    <string name="daily_text">Catalogue Movie افتقدتك!</string>
+    <string name="release_text">!تم الافراج اليوم</string>
+
+    <string name="setting">ضبط</string>
+    <string name="notification">إعلام</string>
+    <string name="daily_reminder">فيلم تذكير اليومية</string>
+    <string name="release_reminder">الافراج عن تذكير الفيلم</string>
+
+</resources>

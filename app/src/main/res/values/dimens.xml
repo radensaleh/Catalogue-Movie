@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="dimen5">5sp</dimen>
+    <dimen name="dimen8">8sp</dimen>
+    <dimen name="dimen10">10sp</dimen>
+    <dimen name="dimen13">13sp</dimen>
+    <dimen name="dimen15">15sp</dimen>
+    <dimen name="dimen18">18sp</dimen>
+    <dimen name="dimen22">22sp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

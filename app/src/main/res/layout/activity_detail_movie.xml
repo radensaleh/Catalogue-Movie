@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".DetailMovieActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:background="@color/colorLightGreen"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img"
+                android:background="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_marginTop="@dimen/dimen5"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="@dimen/dimen18"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:id="@+id/tv_tagline"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/tagline"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/dimen15"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tv_rating"
+                        android:text="@string/rating"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/dimen22"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rating"
+                        android:textSize="@dimen/dimen15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tv_runtime"
+                        android:text="@string/duration"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/dimen22"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/duration"
+                        android:textSize="@dimen/dimen15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tv_language"
+                        android:text="@string/language"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/dimen22"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/language"
+                        android:textSize="@dimen/dimen15" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen15">
+        <LinearLayout
+            android:layout_marginRight="@dimen/dimen15"
+            android:layout_marginLeft="@dimen/dimen15"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/dimen5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/dimen18"
+                android:text="@string/release"/>
+
+            <TextView
+                android:id="@+id/tv_release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen5"
+                android:textSize="@dimen/dimen15"
+                android:text="@string/release"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen10"
+                android:textStyle="bold"
+                android:textSize="@dimen/dimen18"
+                android:text="@string/budget"/>
+
+            <TextView
+                android:id="@+id/tv_budget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen5"
+                android:textSize="@dimen/dimen15"
+                android:text="@string/budget"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen10"
+                android:textStyle="bold"
+                android:textSize="@dimen/dimen18"
+                android:text="@string/overview"/>
+
+            <TextView
+                android:id="@+id/tv_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen5"
+                android:textSize="@dimen/dimen15"
+                android:text="@string/overview"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

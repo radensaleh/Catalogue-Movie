@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Catalogue Movie</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="up_coming">Up Coming</string>
+    <string name="favorite">Favorite</string>
+    <string name="movie_fav">Movie Favorite</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="detail_movie">Detail Movie</string>
+    <string name="empty">Favorite Empty</string>
+
+    <string name="search">Search</string>
+    <string name="title">Title</string>
+    <string name="tagline">Tagline</string>
+    <string name="rating">Rating</string>
+    <string name="duration">Duration</string>
+    <string name="language">Language</string>
+    <string name="release">Release</string>
+    <string name="budget">Budget</string>
+    <string name="overview">Overview</string>
+    <string name="change_language_settings">Change Language</string>
+
+    <string name="failed">Failed</string>
+    <string name="title_empty">Title Empty</string>
+    <string name="searching">Searching</string>
+
+    <string name="daily_text">Catalogue Movie missing you!</string>
+    <string name="release_text">has been release today!</string>
+
+    <string name="setting">Setting</string>
+    <string name="notification">Notification</string>
+    <string name="daily_reminder">Daily Reminder Movie</string>
+    <string name="release_reminder">Release Reminder Movie</string>
+
+</resources>

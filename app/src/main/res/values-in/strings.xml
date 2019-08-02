@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Catalogue Movie</string>
+    <string name="now_playing">Sedang Tayang</string>
+    <string name="up_coming">Akan Datang</string>
+    <string name="favorite">Favorit</string>
+    <string name="movie_fav">Film Favorit</string>
+    <string name="search_movie">Pencarian Film</string>
+    <string name="detail_movie">Rincian Film</string>
+    <string name="empty">Favorit Kosong</string>
+
+    <string name="search">Cari</string>
+    <string name="title">Judul</string>
+    <string name="tagline">Tagline</string>
+    <string name="rating">Peringkat</string>
+    <string name="duration">Durasi</string>
+    <string name="language">Bahasa</string>
+    <string name="release">Rilis</string>
+    <string name="budget">Harga</string>
+    <string name="overview">Ikhtisar</string>
+    <string name="change_language_settings">Ganti Bahasa</string>
+
+    <string name="failed">Gagal</string>
+    <string name="title_empty">Judul Kosong</string>
+    <string name="searching">Mencari</string>
+
+    <string name="daily_text">Catalogue Movie merindukanmu!</string>
+    <string name="release_text">telah dirilis hari ini!</string>
+
+    <string name="setting">Pengaturan</string>
+    <string name="notification">Notifikasi</string>
+    <string name="daily_reminder">Pengingat Harian Film</string>
+    <string name="release_reminder">Pengingat Rilis Film</string>
+
+</resources>

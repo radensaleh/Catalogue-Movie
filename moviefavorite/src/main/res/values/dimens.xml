@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="dimen5">5sp</dimen>
+    <dimen name="dimen8">8sp</dimen>
+    <dimen name="dimen10">10sp</dimen>
+    <dimen name="dimen15">15sp</dimen>
+    <dimen name="dimen18">18sp</dimen>
+    <dimen name="dimen22">22sp</dimen>
+</resources>
